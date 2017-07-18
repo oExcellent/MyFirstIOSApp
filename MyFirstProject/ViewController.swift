@@ -19,6 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func btn1(_ sender: Any) {
         lbl1.text = tbx1.text
+        tbx1.resignFirstResponder()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
